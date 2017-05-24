@@ -4,23 +4,23 @@ package com.colining.product.test.model;
  * Created by asus on 2017/5/24.
  */
 public class Product {
-    private String productId;
+    private long productId;
     private String productName;
-    private int productPrice;
-    private String cateId;
+    private long productPrice;
+    private long cateId;
 
-    public Product(String productId, String productName, int productPrice, String cateId) {
+    public Product(long productId, String productName, long productPrice, long cateId) {
         this.productId = productId;
         this.productName = productName;
         this.productPrice = productPrice;
         this.cateId = cateId;
     }
 
-    public String getProductId() {
+    public long getProductId() {
         return productId;
     }
 
-    public void setProductId(String productId) {
+    public void setProductId(long productId) {
         this.productId = productId;
     }
 
@@ -32,19 +32,19 @@ public class Product {
         this.productName = productName;
     }
 
-    public int getProductPrice() {
+    public long getProductPrice() {
         return productPrice;
     }
 
-    public void setProductPrice(int productPrice) {
+    public void setProductPrice(long productPrice) {
         this.productPrice = productPrice;
     }
 
-    public String getCateId() {
+    public long getCateId() {
         return cateId;
     }
 
-    public void setCateId(String cateId) {
+    public void setCateId(long cateId) {
         this.cateId = cateId;
     }
 
